@@ -10,6 +10,11 @@ Its goal is to provide everything related to UI when building a Nuxt app. This i
 import { GuiToggle } from 'grados-ui';
 ```
 
+### Example of usage
+```html
+<GuiToggle label="Open?" v-model:checked="isOpen" />
+```
+
 | Attributes  | Default Value | Type | Description |
 | ------------- | ------------- | ------------- | ------------- |
 | label  | empty  | String | Can use this attribute to add a label before the toggle button |
@@ -67,6 +72,12 @@ import { GuiSliders } from 'grados-ui';
   }
 ```
 
+### Example of usage
+```html
+<GuiSliders :images="sliders" :has-links="true" />
+```
+
+
 ## Card Component
 
 ```js
@@ -76,12 +87,31 @@ import { GuiCard } from 'grados-ui';
 ### Example of usage
 ```html
 <GuiCard>
-    <template v-slot:header>
-      <h2>Card Title</h2>
-    </template>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni nesciunt. Dicta, consectetur alias? Saepe quidem cum praesentium ut! Magni magnam laudantium itaque asperiores? Dolores id neque ipsam corporis sequi!
-    <template v-slot:footer>
-      <p>Footer content</p>
-    </template>
-  </GuiCard>
+  <template v-slot:header>
+    <h2>Card Title</h2>
+  </template>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni nesciunt. Dicta, consectetur alias? Saepe quidem cum praesentium ut! Magni magnam laudantium itaque asperiores? Dolores id neque ipsam corporis sequi!
+  <template v-slot:footer>
+    <p>Footer content</p>
+  </template>
+</GuiCard>
 ```
+
+## Icons Component
+
+This component use the icons of FontAwesome 5 you can see all the icons here: https://fontawesome.com/v5/search
+```js
+import { GuiIcon } from 'grados-ui';
+```
+
+### Example of usage
+```html
+<GuiIcon icon="fa-google" :brand="true" />
+<GuiIcon icon="fa-vr-cardboard" color="#7e22ce"  />
+```
+
+| Attributes  | Default Value | Type | Description |
+| ------------- | ------------- | ------------- | ------------- |
+| icon  | empty  | String | Name of the icon to show |
+| brand  | false | Boolean | This indicate if is a brand icon like: facebook, google, etc... |
+| color  | #000 | String | This is the color of the icon can be HEX, RGB, RGBA, HSL, HWB  |
