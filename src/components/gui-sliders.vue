@@ -29,7 +29,7 @@ export default defineComponent({
   },
   props: {
     images: {
-      type: Array,
+      type: Array<any>,
       default: null,
     },
     hasLinks: {
