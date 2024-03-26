@@ -27,42 +27,42 @@ import { GuiSliders } from 'grados-ui';
 | has-links  | false | Boolean | This prop indicate if the images is going to have a link |
 
 ```json
-  // Example of images array with out links
+  /* Example of images array with out links */
   {
-    url: 'https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    alt: 'IceCream'
+    "url": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "IceCream"
   },
   {
-    url: 'https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    alt: 'IceCream'
+    "url": "https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "IceCream"
   },
   {
-    url: 'https://images.pexels.com/photos/1352296/pexels-photo-1352296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    alt: 'IceCream'
+    "url": "https://images.pexels.com/photos/1352296/pexels-photo-1352296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "IceCream"
   }
 ```
 
 ```json
-  // Example of images array with links
+  /* Example of images array with links */
   {
-    url: '/',
-    image: {
-      url: 'https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt: 'IceCream'
+    "url": "/",
+    "image": {
+      "url": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "IceCream"
     }
   },
   {
-    url: '/',
-    image: {
-      url: 'https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt: 'IceCream'
+    "url": "/",
+    "image": {
+      "url": "https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "IceCream"
     }
   },
   {
-    url: '/',
-    image: {
-      url: 'https://images.pexels.com/photos/1352296/pexels-photo-1352296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt: 'IceCream'
+    "url": "/",
+    "image": {
+      "url": "https://images.pexels.com/photos/1352296/pexels-photo-1352296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "IceCream"
     }
   }
 ```
