@@ -1,0 +1,7 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.cy.ts", "**/*.spec.ts", "**/__tests__/**/*", "src/router/*"],
+  "compilerOptions": {
+    "module": "nodenext",
+  }
+}
