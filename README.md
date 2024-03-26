@@ -66,3 +66,22 @@ import { GuiSliders } from 'grados-ui';
     }
   }
 ```
+
+## Card Component
+
+```js
+import { GuiCard } from 'grados-ui';
+```
+
+### Example of usage
+```html
+<GuiCard>
+    <template v-slot:header>
+      <h2>Card Title</h2>
+    </template>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni nesciunt. Dicta, consectetur alias? Saepe quidem cum praesentium ut! Magni magnam laudantium itaque asperiores? Dolores id neque ipsam corporis sequi!
+    <template v-slot:footer>
+      <p>Footer content</p>
+    </template>
+  </GuiCard>
+```

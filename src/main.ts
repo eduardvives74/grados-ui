@@ -16,4 +16,5 @@ app.mount('#app')
 import Test from './components/gui-button.vue'
 import GuiToggle from './components/gui-toggle.vue'
 import GuiSliders from './components/gui-sliders.vue'
-export { Test, GuiToggle, GuiSliders }
+import GuiCard from './components/gui-card.vue'
+export { Test, GuiToggle, GuiSliders, GuiCard }
