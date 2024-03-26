@@ -26,8 +26,8 @@ import { GuiSliders } from 'grados-ui';
 | images  | null  | Array | This is the array of slides |
 | has-links  | false | Boolean | This prop indicate if the images is going to have a link |
 
+### Example of images array with out links
 ```json
-  /* Example of images array with out links */
   {
     "url": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "alt": "IceCream"
@@ -42,8 +42,8 @@ import { GuiSliders } from 'grados-ui';
   }
 ```
 
+### Example of images array with links 
 ```json
-  /* Example of images array with links */
   {
     "url": "/",
     "image": {
